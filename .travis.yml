@@ -8,4 +8,4 @@ install: pip install --user -r requirements.txt
 
 
 # command to run tests
-script: python test.py # or py.test for Python versions 3.5 and below
+script: py.test # or py.test for Python versions 3.5 and below
