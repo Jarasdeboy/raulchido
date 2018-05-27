@@ -25,8 +25,8 @@ class Testdime(unittest.TestCase):
 
     def testBorrarvideo(self):
         self.assertTrue(self.sql.BorrarVideo(4))
-        self.asserTrue(self.sql.BorrarVideo(5))
-        self.asserTrue(self.sql.BorrarVideo(6))
+        self.assertTrue(self.sql.BorrarVideo(5))
+        self.assertTrue(self.sql.BorrarVideo(6))
 
 
     def testInfoVideoNombre(self):
