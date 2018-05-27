@@ -5,7 +5,8 @@ python:
 
 install:
   - pip install unittest2
-
+  - pip install --upgrade google-api-python-client
+  - pip install emoji
 
 script: 
   - python testdime.py # or py.test for Python versions 3.5 and below
