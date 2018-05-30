@@ -10,10 +10,10 @@
 
 -----------------------------------------------------------------------------------------------------
 
-### Aplicativo...
+## Aplicativo...
 -----------------------------------------------------------------------------------------------------
 
-Base de datos:
+### Base de datos:
 
 - Tablas: **Doctores**, **Pacientes**, **Consultas**
 
@@ -30,43 +30,23 @@ Base de datos:
 
 
 
-ORM:
+### ORM:
 - Utilizamos el *ORM* **peewee**,  porque es simple y pequeño, que podemos aprender a utilizar rápidamente ya que su manejo es muy intuitivo.
 
 - [x] Peewee  
 
-### Creacion de tablas con el Mapeo obejto-relacional 
-
-- class Doctores(Model):
-	 - id_doctor = PrimaryKeyField(null=False)
-	 - nombre_doctor = TextField()
-	 - apellidos_doctor = TextField()
-	 - especialidad = TextField()
+### Creacion de tablas con el Mapeo obejto-relacional y CRUD:
 
 
-- class Pacientes(Model):
-	 - id_paciente = PrimaryKeyField(null=False)
-	 - nombre_paciente = TextField()
-	 - apellidos_paciente = TextField()
-	 - edad = IntegerField()
 
 
-- class Consultas(Model):
-	 - id_consulta = PrimaryKeyField(null=False)
-	 - doctor = ForeignKeyField(Doctores, related_name="doctor_detalle")
-	 - paciente = ForeignKeyField(Pacientes, related_name="paciente_detalle")
-	 - fecha_consulta = DateField()
-	 - diagnostico = TextField()
-	 - medicamento = TextField()
-
-
-Pagina web:
+### Pagina web:
 
 - [x] HTML
 - [x] jinja
 
 
-Modelo de Clases:
+### Modelo de Clases:
 
 ![modeloclase](https://user-images.githubusercontent.com/35546433/40706787-6d000fd6-63b4-11e8-855e-a2f674f140c9.PNG)
 
@@ -79,21 +59,21 @@ Modelo Entidad Relacion:
 
 ### WebService
 
-- [WEBSERVICE](https://www.youtube.com/watch?v=akIMTwskeOY&index=1&list=PLAg6Lv5Bbjjeh7m51aXdKcdWf6kMKylzN)
-- [WEBSERVICE1](https://www.youtube.com/watch?v=IkR_fewaWVc)
+- [WEBSERVICE JSON](https://www.youtube.com/watch?v=akIMTwskeOY&index=1&list=PLAg6Lv5Bbjjeh7m51aXdKcdWf6kMKylzN)
+- [WEBSERVICE Wamp Service](https://www.youtube.com/watch?v=IkR_fewaWVc)
 
 ### JSON Data Format
 
-- [JSON](https://www.youtube.com/watch?v=0yn7_YuIBdo&list=PLw02n0FEB3E2RDlD2cBULQjvXJ1K_jS1O&index=32)
+- [JSON Beginners](https://www.youtube.com/watch?v=0yn7_YuIBdo&list=PLw02n0FEB3E2RDlD2cBULQjvXJ1K_jS1O&index=32)
 
 ### Peewee Docs
 
-- [PeeweeInfo](http://docs.peewee-orm.com/en/latest/)
-
+- [Peewee Info](http://docs.peewee-orm.com/en/latest/)
+  
 
 ### Sqlite3
 
-- [Sqlite3Python](https://docs.python.org/3/library/sqlite3.html)
+- [Sqlite3 Python](https://docs.python.org/3/library/sqlite3.html)
 
 
 
