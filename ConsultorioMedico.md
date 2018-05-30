@@ -10,7 +10,7 @@
 
 -----------------------------------------------------------------------------------------------------
 
-### About...
+### Aplicativo...
 -----------------------------------------------------------------------------------------------------
 
 Base de datos:
@@ -31,10 +31,61 @@ Base de datos:
 
 
 ORM:
+- Utilizamos el *ORM* **peewee**,  porque es simple y pequeño, que podemos aprender a utilizar rápidamente ya que su manejo es muy intuitivo.
+
 - [x] Peewee  
+
+###Creacion de tablas con el Mapeo obejto-relacional 
+
+
+- from peewee import *
+
+- db = SqliteDatabase('consultas_db.db')
+
+- class Doctores(Model):
+	 id_doctor = PrimaryKeyField(null=False)
+	 nombre_doctor = TextField()
+	 apellidos_doctor = TextField()
+	 especialidad = TextField()
+
+	- class Meta:
+		 database = db
+
+	def __str__(self):
+		return "ID: {}\nDoctor: {} {}\nEspecialidad: {}\n".format(self.id_doctor, self.nombre_doctor, self.apellidos_doctor,             self.especialidad)
+
+- class Pacientes(Model):
+	 id_paciente = PrimaryKeyField(null=False)
+	 nombre_paciente = TextField()
+	 apellidos_paciente = TextField()
+	 edad = IntegerField()
+
+	- class Meta:
+		 database = db
+ 
+	def __str__(self):
+		return "ID: {}\nPaciente: {} {}\nEdad: {}\n".format(self.id_paciente, self.nombre_paciente, self.apellidos_paciente, self.edad)
+
+- class Consultas(Model):
+	 id_consulta = PrimaryKeyField(null=False)
+	 doctor = ForeignKeyField(Doctores, related_name="doctor_detalle")
+	 paciente = ForeignKeyField(Pacientes, related_name="paciente_detalle")
+	 fecha_consulta = DateField()
+	 diagnostico = TextField()
+	 medicamento = TextField()
+
+	- class Meta:
+		 database = db
+
+	def __str__(self):
+		return "No. consulta: {}\nDoctor: {} {}\nPaciente: {} {}\nFecha: {}\nDiagnóstico: {}\nMedicamento: {}\n".format(self.id_consulta, self.doctor.nombre_doctor, self.doctor.apellidos_doctor, self.paciente.nombre_paciente, self.paciente.apellidos_paciente, self.fecha_consulta, self.diagnostico, self.medicamento)
+		#return "No. consulta: {}\nDoctor: {}\nPaciente: {}\nFecha: {}\nDiagnóstico: {}\nMedicamento: {}\n".format(self.id_consulta, self.doctor, self.self.paciente, self.fecha_consulta, self.diagnostico, self.medicamento)
+
+
 
 
 Pagina web:
+
 - [x] HTML
 - [x] jinja
 
