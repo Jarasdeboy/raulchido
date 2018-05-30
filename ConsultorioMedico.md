@@ -35,7 +35,7 @@
 
 - [x] Peewee  
 
-### Creacion de tablas con el Mapeo obejto-relacional y CRUD:
+### Creacion de tablas con el Mapeo obejto-relacional:
 
 - Doctores
 
