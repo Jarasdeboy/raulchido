@@ -22,9 +22,9 @@ Base de datos:
 | Doctores   | Pacientes | Concultas |
 | ---------- | --------- | --------- |
 | Id_doctor  | Id_paciente | Id_consulta |
-| Nombre_doctor | | Nombre_paciente | | Doctor |
-| Apellido_doctor | | Apellido_paciente | | Paciente |
-| Especialidad | | Edad |                 | Fecha_consulta |
+| Nombre_doctor | Nombre_paciente | Doctor |
+| Apellido_doctor | Apellido_paciente | Paciente |
+| Especialidad | Edad |                 | Fecha_consulta |
 |                         |                 | Diagnostico |
 |                         |                | Medicamento |
 
