@@ -1,19 +1,19 @@
-# Consultorio Medico
+# Consultorio Medico :pill: :syringe: :hospital:
 
 ## Especificaciones y Requerimientos
 -----------------------------------------------------------------------------------------------------
 
-### Objetivo
+### Objetivo :page_facing_up:
 -----------------------------------------------------------------------------------------------------
 
 - El problema con los consultorios medicos es que tiene mal organizado sus datos y registros, por lo cual les traemos una aplicación innovadora que tiene como **objetivo** crear una base de datos utilizando *ORM* , para mejorar la comodidad del cliente en esta aplicación creamos una pagina web en *HTML*  en la cual podrán interactuar via internet.
 
 -----------------------------------------------------------------------------------------------------
 
-## Aplicativo...
+## Aplicativo :briefcase:
 -----------------------------------------------------------------------------------------------------
 
-### Base de datos:
+### Base de datos :triangular_flag_on_post: 
 
 - Tablas: **Doctores**, **Pacientes**, **Consultas**
 
@@ -30,34 +30,35 @@
 
 
 
-### ORM:
+### ORM :moyai:
+
 - Utilizamos el *ORM* **peewee**,  porque es simple y pequeño, que podemos aprender a utilizar rápidamente ya que su manejo es muy intuitivo.
 
-- [x] Peewee  
+- [x] Peewee :penguin:
 
-### Creacion de tablas con el Mapeo obejto-relacional:
+### Creacion de tablas con el Mapeo obejto-relacional :squirrel:
 
-- Doctores
+- Doctores :mask:
 
 ![doctorespewwe](https://user-images.githubusercontent.com/35546433/40743098-38f1022e-6416-11e8-9d74-00d85f5605e6.PNG)
 
 
-- Pacientes 
+- Pacientes :boy:
 
 ![pacientespeewee](https://user-images.githubusercontent.com/35546433/40743197-7c3201e6-6416-11e8-93c2-da668be1f34a.PNG)
 
-- Consultas
+- Consultas  blue_book:
 
 ![consultapewwe1](https://user-images.githubusercontent.com/35546433/40743228-892073ba-6416-11e8-9d90-52fb2b2f1a03.PNG)
 
 
-### Pagina web:
+### Pagina web :bomb:
 
 - [x] HTML
-- [x] jinja
+- [x] jinja :trollface:
 
 
-### Modelo de Clases:
+### Modelo de Clases :school_satchel:
 
 ![modeloclase](https://user-images.githubusercontent.com/35546433/40706787-6d000fd6-63b4-11e8-855e-a2f674f140c9.PNG)
 
@@ -66,7 +67,7 @@ Modelo Entidad Relacion:
 ![entidad relacion consultorio](https://user-images.githubusercontent.com/35546433/40707984-d66b24bc-63b7-11e8-9c47-754364aeffbf.PNG)
 
 
-## Referencias
+## Referencias :computer :floppy_disk:
 
 ### WebService
 
