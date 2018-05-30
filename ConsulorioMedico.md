@@ -25,8 +25,8 @@ Base de datos:
 | Nombre_doctor | | Nombre_paciente | | Doctor |
 | Apellido_doctor | | Apellido_paciente | | Paciente |
 | Especialidad | | Edad |                 | Fecha_consulta |
-                                          | Diagnostico |
-                                          | Medicamento |
+|                         |                 | Diagnostico |
+|                         |                | Medicamento |
 
 
 
