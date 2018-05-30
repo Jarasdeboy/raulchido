@@ -37,6 +37,17 @@
 
 ### Creacion de tablas con el Mapeo obejto-relacional y CRUD:
 
+- Doctores
+
+![doctorespewwe](https://user-images.githubusercontent.com/35546433/40743098-38f1022e-6416-11e8-9d74-00d85f5605e6.PNG)
+
+
+- Pacientes 
+
+
+
+- Consultas
+
 
 
 
