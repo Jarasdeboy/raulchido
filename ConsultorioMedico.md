@@ -37,7 +37,6 @@ Pagina web:
 - [x] HTML
 - [x] jinja
 
-![Modelo de clases](C:/Users/Raul/Pictures/Modeloclase.png)
 
 
 
