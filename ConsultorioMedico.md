@@ -75,5 +75,28 @@ Modelo Entidad Relacion:
 ![entidad relacion consultorio](https://user-images.githubusercontent.com/35546433/40707984-d66b24bc-63b7-11e8-9c47-754364aeffbf.PNG)
 
 
+## Referencias
+
+### WebService
+
+- [WEBSERVICE](https://www.youtube.com/watch?v=akIMTwskeOY&index=1&list=PLAg6Lv5Bbjjeh7m51aXdKcdWf6kMKylzN)
+- [WEBSERVICE1](https://www.youtube.com/watch?v=IkR_fewaWVc)
+
+### JSON Data Format
+
+- [JSON](https://www.youtube.com/watch?v=0yn7_YuIBdo&list=PLw02n0FEB3E2RDlD2cBULQjvXJ1K_jS1O&index=32)
+
+### Peewee Docs
+
+- [PeeweeInfo](http://docs.peewee-orm.com/en/latest/)
+
+
+### Sqlite3
+
+- [Sqlite3Python](https://docs.python.org/3/library/sqlite3.html)
+
+
+
+
 
 
