@@ -38,4 +38,4 @@ Pagina web:
 - [x] jinja
 
 Modelo Clase:
-- ![ModeloClase](pictures/Modelo Clase.png)
+![ModeloClase](Pictures/Modelo clase.png)
