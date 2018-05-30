@@ -37,5 +37,4 @@ Pagina web:
 - [x] HTML
 - [x] jinja
 
-Modelo Clase:
-![ModeloClase](Pictures/Modelo clase.png)
+
