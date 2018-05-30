@@ -23,7 +23,7 @@ Base de datos:
 | ---------- | --------- | --------- |
 | Id_doctor  | Id_paciente | Id_consulta |
 | Nombre_doctor | Nombre_paciente | Doctor |
-| Apellido_doctor | Apellido_paciente | Paciente |
+| Apellidos_doctor | Apellidos_paciente | Paciente |
 | Especialidad | Edad | Fecha_consulta |
 |                     |                | Diagnostico |
 |                     |                | Medicamento |
@@ -31,43 +31,11 @@ Base de datos:
 
 
 ORM:
-- [x] Peewee
+- [x] Peewee  
 
-- from peewee import *
+Pagina web:
+- [x] HTML
+- [x] jinja
 
-- db = SqliteDatabase('consultas_db.db')
-
-- class BaseModel(Model):
-    - class Meta:
-        - database = db
-
-- class Doctores(BaseModel):
-    - id_doctor = PrimaryKeyField(null=False)
-    - nombre_doctor = TextField()
-    - apellidos_doctor = TextField()
-    - especialidad = TextField()
-
-    def __str__(self):
-        return "ID: {}\nDoctor: {} {}\nEspecialidad: {}".format(self.id_doctor, self.nombre_doctor, self.apellidos_doctor, self.especialidad)
-
-
-- class Pacientes(BaseModel):
-    - id_paciente = PrimaryKeyField(null=False)
-    - nombre_paciente = TextField()
-    - apellidos_paciente = TextField()
-     -edad = IntegerField()
-
-    def __str__(self):
-        return "ID:{}\nPaciente:{} {}\nEdad:{}".format(self.id_paciente, self.nombre_paciente, self.apellidos_paciente, self.edad)
-
-
-- class Consultas(BaseModel):
-    - id_consulta = PrimaryKeyField(null=False)
-    - doctor = ForeignKeyField(Doctores, related_name="doctor_detalle")
-    - paciente = ForeignKeyField(Pacientes, related_name="paciente_detalle")
-    - fecha_consulta = DateField()
-    - diagnostico = TextField()
-    - medicamento = TextField()
-
-    def __str__(self):
-        return "No. Cosulta: {}\nDoctor: {} {}\nPaciente: {} {}\nFecha consulta: {}\nDiagnóstico: {}\nMedicamento: {}".format(self
+Modelo Clase:
+- ![ModeloClase](pictures/Modelo Clase.png)
