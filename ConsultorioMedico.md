@@ -45,6 +45,7 @@ Modelo de Clases:
 
 Modelo Entidad Relacion:
 
+![entidad relacion consultorio](https://user-images.githubusercontent.com/35546433/40707984-d66b24bc-63b7-11e8-9c47-754364aeffbf.PNG)
 
 
 
