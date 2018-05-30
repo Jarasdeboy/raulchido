@@ -37,6 +37,7 @@ Pagina web:
 - [x] HTML
 - [x] jinja
 
-![Modelo de clases](https://plus.google.com/photos/photo/110696616698736829234/6561274901938874162?authkey=COy-3qH2hey0dg)
+![Modelo de clases](https://plus.google.com/photos/photo/110696616698736829234/6561274901938874162)
+
 
 
