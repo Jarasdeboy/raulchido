@@ -24,5 +24,20 @@ Base de datos:
 | Apellido_doctor |
 | Especialidad |
 
+| Pacientes   |     
+| ---------- |
+| Id_paciente  | 
+| Nombre_paciente |
+| Apellido_paciente |
+| Edad |
+
+| Consultas   |     
+| ---------- |
+| Id_consulta  | 
+| Doctor |
+| Paciente |
+| Fecha_consulta |
+| Diagnostico |
+| Medicamento |
 
 
