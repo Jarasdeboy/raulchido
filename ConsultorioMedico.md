@@ -44,11 +44,11 @@
 
 - Pacientes 
 
-
+![pacientespeewee](https://user-images.githubusercontent.com/35546433/40743197-7c3201e6-6416-11e8-93c2-da668be1f34a.PNG)
 
 - Consultas
 
-
+![consultapewwe1](https://user-images.githubusercontent.com/35546433/40743228-892073ba-6416-11e8-9d90-52fb2b2f1a03.PNG)
 
 
 ### Pagina web:
