@@ -33,10 +33,19 @@ Base de datos:
 ORM:
 - [x] Peewee  
 
+
 Pagina web:
 - [x] HTML
 - [x] jinja
+
+
+Modelo de Clases:
+
 ![modeloclase](https://user-images.githubusercontent.com/35546433/40706787-6d000fd6-63b4-11e8-855e-a2f674f140c9.PNG)
+
+Modelo Entidad Relacion:
+
+
 
 
 
