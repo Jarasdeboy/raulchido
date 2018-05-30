@@ -19,8 +19,10 @@ Base de datos:
 
 | Doctores   |     
 | ---------- |
-| ID         | 
-| Nombre     |
+| Id_doctor  | 
+| Nombre_doctor |
+| Apellido_doctor |
 | Especialidad |
+
 
 
