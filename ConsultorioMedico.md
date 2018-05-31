@@ -67,6 +67,7 @@ Modelo Entidad Relacion:
 
 Modelo de componentes:
 
+![compoojddafds](https://user-images.githubusercontent.com/35546433/40754793-9ce6bb64-6440-11e8-83bd-a1baed28cada.PNG)
 
 
 
