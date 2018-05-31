@@ -61,9 +61,12 @@
 
 ![modeloclase](https://user-images.githubusercontent.com/35546433/40706787-6d000fd6-63b4-11e8-855e-a2f674f140c9.PNG)
 
+
 Modelo Entidad Relacion:
 
-![entidad relacion consultorio](https://user-images.githubusercontent.com/35546433/40707984-d66b24bc-63b7-11e8-9c47-754364aeffbf.PNG)
+
+![poweropsq](https://user-images.githubusercontent.com/35546433/40754913-5db28ab2-6441-11e8-95a8-5fc4d0391192.PNG)
+
 
 Modelo de componentes:
 
