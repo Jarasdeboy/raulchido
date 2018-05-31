@@ -54,8 +54,7 @@
 
 ### Pagina web :bomb:
 
-- [x] HTML
-- [x] jinja :trollface:
+- [x] HTML :trollface:
 
 
 ### Modelo de Clases :school_satchel:
@@ -68,7 +67,7 @@ Modelo Entidad Relacion:
 
 Modelo de componentes:
 
-![componentespython](https://user-images.githubusercontent.com/35546433/40754539-73f10cc4-643f-11e8-8e37-64ecdd964e34.PNG)
+
 
 
 ## Referencias :computer: :floppy_disk:
